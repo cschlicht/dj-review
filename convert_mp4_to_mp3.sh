@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Source and destination directories
-SOURCE_DIR="/Users/cschlicht/Documents/Recordings/DJ"
-DEST_DIR="/Users/cschlicht/Documents/Recordings/DJ/Processed"
+SOURCE_DIR="/Users/cschlicht/Documents/Recordings/Process-Me"
+DEST_DIR="/Users/cschlicht/Documents/Recordings/Process-Me/Processed"
 
 # Create destination directory if it doesn't exist
 mkdir -p "$DEST_DIR"
