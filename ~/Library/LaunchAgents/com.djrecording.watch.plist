@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.djrecording.watch</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/cschlicht/Documents/Coding-Projects/dj-review/watch_and_convert.sh</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/Users/cschlicht/Library/Logs/djrecording.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/cschlicht/Library/Logs/djrecording.error.log</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>HOME</key>
+        <string>/Users/cschlicht</string>
+        <key>USER</key>
+        <string>cschlicht</string>
+        <key>SHELL</key>
+        <string>/bin/bash</string>
+    </dict>
+    <key>WorkingDirectory</key>
+    <string>/Users/cschlicht/Documents/Coding-Projects/dj-review</string>
+    <key>UserName</key>
+    <string>cschlicht</string>
+    <key>InitGroups</key>
+    <true/>
+</dict>
+</plist> 
