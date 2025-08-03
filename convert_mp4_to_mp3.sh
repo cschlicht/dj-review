@@ -2,7 +2,7 @@
 
 # Source and destination directories
 SOURCE_DIR="/Users/cschlicht/Documents/Recordings/Process-Me"
-DEST_DIR="/Users/cschlicht/Documents/Recordings/Process-Me/Processed"
+DEST_DIR="/Users/cschlicht/Library/CloudStorage/GoogleDrive-cameronschlicht7@gmail.com/My Drive/DJ/DJ-Recordings"
 
 # Create destination directory if it doesn't exist
 mkdir -p "$DEST_DIR"
